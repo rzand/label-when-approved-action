@@ -2,6 +2,7 @@
 
 This GitHub Action applies a label of your choice to pull requests that reach a specified number of approvals. For teams using [Pull Reminders](https://pullreminders.com), this action can be used to exclude approved pull requests from reminders.
 
+
 ## Usage
 
 This Action subscribes to [Pull request review events](https://developer.github.com/v3/activity/events/types/#pullrequestreviewevent) which fire whenever pull requests are approved. The action requires two environment variables – the label name to add and the number of required approvals. Optionally you can provide a label name to remove.
